@@ -1,3 +1,4 @@
+/** circle part starts **/
 @import "compass/css3";
  .circle-container {
 	 position: relative;
@@ -74,4 +75,7 @@ h2
 a:hover
 {
     color: aqua;
+    text-decoration: none;
 }
+
+a

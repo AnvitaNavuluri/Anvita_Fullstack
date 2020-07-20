@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+   <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <title>Anvita_FULLSTACK</title>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -13,6 +13,7 @@
             width: 100%;
             
         }
+        
         body
         {
             background:lightgreen;
@@ -24,10 +25,28 @@
             height: 100px;
         }
         
+        .container-fluid
+        {
+            height: 65vh;
+            width: 100vw;
+        }
+        
+@media only screen and (max-width: 400px) {
+  .scaled {
+  transform: scale(0.7); 
+}
+}
+        @media only screen and (max-width: 600px) {
+  .scaled {
+  transform: scale(0.8); 
+}
+}
+        
+        
     </style>
 <body>
    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <!-- Brand --><a class="navbar-brand" href="#">FULLSTACK</a>
+        <!-- Brand --><a class="navbar-brand" href="#">Anvita_FULLSTACK</a>
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
         <!-- Navbar links -->
@@ -45,6 +64,7 @@
         </div>
     </nav>
     <div class="container-fluid">
+               <div class="scaled">
                 <ul class='circle-container'>
                   <li>
                         <a href="A_FS_pros.html"><img src='img/pro.png'></a>
@@ -71,8 +91,9 @@
                         <a href="A_FS_about.html"><img src='img/about.png'></a>
                     </li>
                 </ul>
+                </div>
             </div>
-    <h5 style="text-align: center;">References:<a href="https://www.w3schools.com/whatis/whatis_fullstack.asp">W3schools</a>, <a href="https://www.geeksforgeeks.org/what-is-full-stack-development/">Geekforgeeks</a></h5>
+            <h5 style="text-align: center;">References:<a href="https://www.w3schools.com/whatis/whatis_fullstack.asp">W3schools</a>, <a href="https://www.geeksforgeeks.org/what-is-full-stack-development/">Geekforgeeks</a></h5>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
